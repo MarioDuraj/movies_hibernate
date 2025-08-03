@@ -43,11 +43,11 @@ public class Main {
 //        Movie movie = movieRepository.findById(1L);
 //        actor.addMovie(movie);
 //        actorRepository.save(actor);
-        System.out.println(actorRepository.findByFirstName("im"));
-        Scanner scanner = new Scanner(System.in);
-        GenreService genreService = new GenreService(genreRepository, scanner);
-        Genre genre = genreService.update();
-        System.out.println(genre);
+//        System.out.println(actorRepository.findByFirstName("im"));
+//        Scanner scanner = new Scanner(System.in);
+//        GenreService genreService = new GenreService(genreRepository, scanner);
+//        Genre genre = genreService.update();
+//        System.out.println(genre);
 
     }
 
